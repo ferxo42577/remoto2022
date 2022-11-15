@@ -4,7 +4,7 @@ function conectar(){
 
     
     
-    $DB_HOST = $_ENV['DB_HOST'];
+    $DB_HOST = "containers-us-west-108.railway.app";
     $DB_USER = $_ENV['DB_USER']; 
     $DB_PASSWORD = $_ENV['DB_PASSWORD'];
     $DB_NAME = $_ENV['DB_NAME'];
